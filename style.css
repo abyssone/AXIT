@@ -103,6 +103,9 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .signup-header {
@@ -110,6 +113,7 @@ html {
   color: #333;
   background-color: #f5f5f5;
   height: 54px;
+  width: 100%;
 }
 
 .signup-title {
@@ -118,3 +122,49 @@ html {
   font-size: 20px;
   font-weight: 700;
 }
+
+.signup-input {
+  width: 286px;
+  height: 31px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #d6d6d6;
+  padding: 0 0 0 14px;
+}
+
+::-webkit-input-placeholder {
+  color: #d6d6d6;
+  font-weight: 300;
+}
+
+.signup-button {
+  height: 56px;
+  width: 100%;
+  background-color: #ff9b51;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+/******************* Social **********************/
+
+.social {
+  height: 105px;
+  width: 100%;
+  border-bottom: 1px solid #b7b7b7;
+  text-align: center;
+}
+
+.social-inner {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 365px;
+}
+
